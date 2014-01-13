@@ -1,5 +1,5 @@
 html {
-	font-size: 10px;
+	font-size: 7px;
 }
 
 body {
@@ -260,75 +260,4 @@ button:before
 	-webkit-border-radius: .15em 0 0 .15em;
 	border-radius: .15em 0 0 .15em;*/
         pointer-events: none;        
-}
-
-
-/*------------------------  BASE-REM SIZING  */
-
-
-@media (min-width: 1401px) {
-	html {
-		font-size: 12px;
-	}
-}
-
-@media (max-width: 1400px) {
-	html {
-		font-size: 11px;
-	}
-}
-
-/* target screen width  */
-@media (max-width: 1280px) {
-	html {
-		font-size: 10px;
-	}
-}
-	
-@media (max-width: 1160px) {
-	html {
-		font-size: 9px;
-	}
-}
-	
-@media (max-width: 1040px) {
-	html {
-		font-size: 8px;
-	}
-}
-	
-@media (max-width: 920px) {
-	html {
-		font-size: 7px;
-	}
-}
-	
-@media (max-width: 800px) {
-	html {
-		font-size: 7px;
-	}
-}
-	
-@media (max-width: 680px) {
-	html {
-		font-size: 7px;
-	}
-}
-	
-@media (max-width: 560px) {
-	html {
-		font-size: 7px;
-	}
-}
-	
-@media (max-width: 440px) {
-	html {
-		font-size: 7px;
-	}
-}
-
-@media (max-width: 320px) {
-	html {
-		font-size: 7px;
-	}
 }
