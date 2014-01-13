@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=en-gb>
+<head>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Haptic Effect Demo - from The Lab</title>
+	<style type="text/css">
+		html {background-color: white;}
+	</style>
+		<script type="text/javascript"src="haptic.js"></script>
+</head>
+<body>
+	<h1>Haptic Effect Demo - from The Lab</h1>
+	<h2>SMS - Notify the user of an incoming message</h2>
+	<button onclick="sms();">SMS</button> 
+	<h2>Heart Beat - for 5 beats</h2>
+	<button onclick="heartBeat(5);">Heart Beat</button> <button onclick="heartBeatFast(5,300)">Heart Beat (fast)</button> 
+	<h2>Clunk Click - Suitable for Error Events</h2>
+	<button onclick="clunkClick();">Clunk Click</button> 
+	<h2>Lite - A gentle, low powered vibration</h2>
+	<button onclick="lite();">Lite</button> <button onclick="lite(64)">Lite repeated 64 times</button> 
+	<h2>Medium Rumble - A staccato vibration</h2>
+	<button onclick="medium();">Medium</button> 
+	<h2>Star Wars</h2>
+	<button onclick="starWars();">Star Wars</button> 
+	<h2>Waiting - Suiting for indicating a pause during activity</h2>
+	<button onclick="waiting(5);">Please Wait</button> 
+	<h2>Countdown - 3... 2... 1...</h2>
+	<button onclick="countdown();">3... 2... 1... Go!</button> 
+	<h2>Shave &amp; A Hair Cut...</h2>
+	<button onclick="shaveAndAHairCut();">...two bits!</button> 
+</body>
+</html>
