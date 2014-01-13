@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang=en-gb>
 <head>
-<meta charset=utf-8>
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<title>Haptic Effect Demo - from The Lab</title>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Haptic Effect Demo - from The Lab</title>
 
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<script language="javascript" type="text/javascript" src="haptic.js"></script>
-
-<style type="text/css">html{background-color:white;}</style>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="haptic.js"></script>
 </head>
 <body>
 	<header>
@@ -19,41 +17,50 @@
 		</div>
 	</header>
 	<section>
-	<h1>Haptic Effect Demo<br />from The Lab</h1>
+		<h1>Haptic Effect Demo<br />from The Lab</h1>
 		<hr class="wide"/>
+
 		<h2>SMS</h2>
 		<h3>Notify the user of an incoming message</h3>
 			<button onclick="sms();">SMS</button>
 		<hr />
+
 		<h2>Heart Beat</h2>
 		<h3>for 5 beats</h3>
 			<button class="dual" onclick="heartBeat(5);">Heart Beat</button>
 			<button class="dual" onclick="heartBeatFast(5,300)">Heart Beat (fast)</button>
 		<hr />
+
 		<h2>Clunk Click</h2>
 		<h3>Suitable for Error Events</h3>
 			<button onclick="clunkClick();">Clunk Click</button>
 		<hr />
+
 		<h2>Lite</h2>
 		<h3>A gentle, low powered vibration</h3>
 			<button class="dual" onclick="lite();">Lite</button>
 			<button class="dual" onclick="lite(64)">Lite repeated 64 times</button>
 		<hr />
+
 		<h2>Medium Rumble</h2>
 		<h3>A staccato vibration</h3>
 			<button onclick="medium();">Medium</button>
 		<hr />
+
 		<h2>Star Wars</h2>
 			<button onclick="starWars();">Star Wars</button>
 		<hr />
+
 		<h2>Waiting</h2>
 		<h3>Suiting for indicating a pause during activity</h3>
 			<button onclick="waiting(5);">Please Wait</button>
 		<hr />
+
 		<h2>Countdown</h2>
 		<h3>3... 2... 1...</h3>
 			<button onclick="countdown();">3... 2... 1... Go!</button>
 		<hr />
+
 		<h2>Shave &amp; A Hair Cut...</h2>
 			<button onclick="shaveAndAHairCut();">...two bits!</button>
 		<hr class="wide"/>
