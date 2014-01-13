@@ -127,10 +127,10 @@ hr {
 	padding: 10px;
 	padding: 1rem;
 	text-decoration: none;
-	color: #888;
-	font-size: 16px;
-	font-size: 1.6rem;
-	font-style: normal;
+	font-size: 24px;
+	font-size: 2.4rem;
+	color: #F5FCFF;
+	font-weight: normal;
 }
 
 .menu-button:hover {
@@ -166,10 +166,10 @@ button {
 	border: 1px solid #777;
 	padding: 0.5rem 1rem;
 	margin: 1rem;
-	font: 2.4rem/2.8rem Helvetica Neue, Arial;
+	font: 2.4rem OpenSansRegular;
 	text-decoration: none;
 	color: #333;
-	width: 38rem;
+	width: 34rem;
 }
 
 .dual {
@@ -179,10 +179,10 @@ button {
 	border: 1px solid #777;
 	padding: 0.5rem 1rem;
 	margin: 1rem;
-	font: 1.5rem/2.8rem Helvetica Neue, Arial;
+	font: 1.4rem OpenSansRegular;
 	text-decoration: none;
 	color: #333;
-	width: 18rem;
+	width: 16rem;
 }
 
 button:hover
