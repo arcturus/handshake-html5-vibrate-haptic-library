@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang=en-gb>
 <head>
-	<meta charset=utf-8>
-	<meta name="viewport" content="width=device-width, user-scalable=no">
-	<title>Haptic Effect Demo - from The Lab</title>
-	<style type="text/css">
-		html {background-color: white;}
-	</style>
-		<script type="text/javascript"src="haptic.js"></script>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>Haptic Effect Demo - from The Lab</title>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script language="javascript" type="text/javascript" src="haptic.js"></script>
+
+<style type="text/css">html{background-color:white;}</style>
 </head>
 <body>
-	<h1>Haptic Effect Demo - from The Lab</h1>
-	<h2>SMS - Notify the user of an incoming message</h2>
-	<button onclick="sms();">SMS</button> 
-	<h2>Heart Beat - for 5 beats</h2>
-	<button onclick="heartBeat(5);">Heart Beat</button> <button onclick="heartBeatFast(5,300)">Heart Beat (fast)</button> 
-	<h2>Clunk Click - Suitable for Error Events</h2>
-	<button onclick="clunkClick();">Clunk Click</button> 
-	<h2>Lite - A gentle, low powered vibration</h2>
-	<button onclick="lite();">Lite</button> <button onclick="lite(64)">Lite repeated 64 times</button> 
-	<h2>Medium Rumble - A staccato vibration</h2>
-	<button onclick="medium();">Medium</button> 
-	<h2>Star Wars</h2>
-	<button onclick="starWars();">Star Wars</button> 
-	<h2>Waiting - Suiting for indicating a pause during activity</h2>
-	<button onclick="waiting(5);">Please Wait</button> 
-	<h2>Countdown - 3... 2... 1...</h2>
-	<button onclick="countdown();">3... 2... 1... Go!</button> 
-	<h2>Shave &amp; A Hair Cut...</h2>
-	<button onclick="shaveAndAHairCut();">...two bits!</button> 
+	<header>
+		<h1><a href="https://thelab.o2.com/">The Lab</a></h1>
+		<div id="menu">
+			<a href="https://github.com/dogfood20/haptic" class="menu-button">Fork me on Github</a>
+		</div>
+	</header>
+	<section>
+	<h1>Haptic Effect Demo<br />from The Lab</h1>
+		<hr class="wide"/>
+		<h2>SMS</h2>
+		<h3>Notify the user of an incoming message</h3>
+			<button onclick="sms();">SMS</button>
+		<hr />
+		<h2>Heart Beat</h2>
+		<h3>for 5 beats</h3>
+			<button class="dual" onclick="heartBeat(5);">Heart Beat</button>
+			<button class="dual" onclick="heartBeatFast(5,300)">Heart Beat (fast)</button>
+		<hr />
+		<h2>Clunk Click</h2>
+		<h3>Suitable for Error Events</h3>
+			<button onclick="clunkClick();">Clunk Click</button>
+		<hr />
+		<h2>Lite</h2>
+		<h3>A gentle, low powered vibration</h3>
+			<button class="dual" onclick="lite();">Lite</button>
+			<button class="dual" onclick="lite(64)">Lite repeated 64 times</button>
+		<hr />
+		<h2>Medium Rumble</h2>
+		<h3>A staccato vibration</h3>
+			<button onclick="medium();">Medium</button>
+		<hr />
+		<h2>Star Wars</h2>
+			<button onclick="starWars();">Star Wars</button>
+		<hr />
+		<h2>Waiting</h2>
+		<h3>Suiting for indicating a pause during activity</h3>
+			<button onclick="waiting(5);">Please Wait</button>
+		<hr />
+		<h2>Countdown</h2>
+		<h3>3... 2... 1...</h3>
+			<button onclick="countdown();">3... 2... 1... Go!</button>
+		<hr />
+		<h2>Shave &amp; A Hair Cut...</h2>
+			<button onclick="shaveAndAHairCut();">...two bits!</button>
+		<hr class="wide"/>
+	</section>
+	<footer>
+		<div id="footer-menu" role="navigation">
+			<a href="https://thelab.o2.com/who-we-are/" class="footer-button">Who we are</a>
+			<a href="https://thelab.o2.com/category/projects/" class="footer-button">Projects</a>
+			<a href="https://thelab.o2.com/category/events/" class="footer-button">Events</a>
+			<a href="https://thelab.o2.com/category/opinion/" class="footer-button">Opinion</a>
+			<a href="https://thelab.o2.com/category/case-studies/" class="footer-button">Cast Studies</a>
+			<a href="https://thelab.o2.com/category/about-us/" class="footer-button">About Us</a>
+		</div>
+		<p>All content © 2014, the Lab is a trade mark of Telefónica UK Limited. Telefónica UK Limited, 260 Bath Road, Slough, Berkshire SL14DX. Registered in England No. 1743099.</p>
+	</footer>
 </body>
 </html>
